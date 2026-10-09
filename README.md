@@ -1,0 +1,15 @@
+# 方格 / Grid Studies
+
+一个无依赖的静态网格绘制工具。打开 `index.html` 即可使用；部署时将本目录作为 GitHub Pages 发布目录。
+
+## 使用
+
+1. 点击「开始」，按边长、面积或行列数初始化；也可跳过，使用无实际尺度的默认网格。
+2. 在画布上拖动填色。画出水平或竖直单格宽直线后，保持按住约 2 秒，再垂直拖动，即可扩展为矩形。
+3. 用「擦除」拖动清除格子，用「撤销」恢复上一步。右上角「设置」可调整显示尺寸、实际边长、线色和底图。
+
+画布数据仅保存在当前页面内存中，刷新页面会重置。无需账户或联网服务。
+
+## 部署
+
+将 `index.html`、`style.css`、`main.js` 上传到公开 GitHub 仓库根目录，在仓库 Settings → Pages 中选择 **Deploy from a branch**，Branch 选择 `main`，Folder 选择 `/ (root)`。发布地址通常为 `https://<username>.github.io/<repository>/`。
